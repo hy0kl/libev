@@ -1,0 +1,45 @@
+# Object files
+*.o
+*.lo
+*.ko
+*.obj
+*.elf
+
+# Libraries
+*.lib
+*.a
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+.DS_Store
+*~
+*.swp
+*.swo
+*.dSYM
+a.out
+tags
+favicon.ico
+
+# project
+.deps/
+Makefile
+config.h
+config.log
+config.status
+libtool
+stamp-h1
+
+# Rust project
+Cargo.lock
+target
